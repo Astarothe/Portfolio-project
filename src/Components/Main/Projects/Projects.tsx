@@ -5,7 +5,7 @@ import {Project} from "./Project/Project";
 
 export const Projects = () => {
     return (
-       <article className={s.projectBlock}>
+       <section className={s.projectBlock}>
            <div className={`${sContainer.container} ${s.projectContainer}`}>
                <h2>Мои работы</h2>
                <div className={s.projectList}>
@@ -13,6 +13,6 @@ export const Projects = () => {
                    <Project title={"Social-Network"} description={"Краткое описание"}/>
                </div>
            </div>
-       </article>
+       </section>
     );
 }

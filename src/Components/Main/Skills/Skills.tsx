@@ -5,7 +5,7 @@ import {Skill} from "./Skill/Skill";
 
 export const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
+        <section className={s.skillsBlock}>
             <div className={`${s.skillsContainer} ${sContainer.container} `}>
                 <h2 className={s.title}>Skills</h2>
                 <div className={s.skillsList}>
@@ -14,6 +14,6 @@ export const Skills = () => {
                     <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

@@ -3,7 +3,7 @@ import s from './Intro.module.css';
 
 export const Intro = () => {
     return (
-        <div className={s.container}>
+        <section className={s.container}>
             <div className={`${s.container} ${s.wrapper}`}>
                 <div className={s.textContainer}>
                     <span className={s.greetUsers}>Hi There</span>
@@ -12,6 +12,6 @@ export const Intro = () => {
                 </div>
                 <div className={s.photo}></div>
             </div>
-        </div>
+        </section>
     );
 }

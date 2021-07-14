@@ -4,7 +4,7 @@ import sContainer from "./../../../common/Styles/Container.module.css"
 
 export const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <section className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer} `}>
                 <h2>Contacts</h2>
                 <form action="#" className={s.form}>
@@ -14,6 +14,6 @@ export const Contacts = () => {
                 </form>
                 <button className={s.buttonContacts}>Отправить</button>
             </div>
-        </div>
+        </section>
     );
 }
