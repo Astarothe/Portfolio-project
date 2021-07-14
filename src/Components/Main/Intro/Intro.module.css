@@ -13,16 +13,26 @@
 .container{
     border: 1px solid;
     min-height: 100vh;
-    width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: cadetblue;
+}
+.wrapper{
+    border: 1px solid;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 @media (max-width: 767px) {
-    .container{
+    .wrapper{
         justify-content: center;
         align-items: flex-start;
+        height: 100vh;
     }
 }
