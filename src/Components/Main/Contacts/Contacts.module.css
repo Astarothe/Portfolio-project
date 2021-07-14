@@ -1,0 +1,50 @@
+.contactsBlock {
+    min-height: 75vh;
+    background-color: darkturquoise;
+}
+
+.contactsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.buttonContacts {
+    margin-top: 30px;
+    height: 40px;
+    width: 120px;
+}
+
+@media (max-width: 767px) {
+    .form{
+        width: 70%;
+    }
+}
+@media (max-width: 600px) {
+    .form{
+        width: 100%;
+    }
+}

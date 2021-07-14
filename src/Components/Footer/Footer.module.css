@@ -1,0 +1,29 @@
+.footerBlock {
+    background-color: #ebf3db;
+}
+
+.footerContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 25vh;
+    justify-content: space-between;
+}
+
+.iconWrapper {
+    display: flex;
+    border: 1px solid;
+    width: 30%;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .iconWrapper {
+        width: 50%
+    }
+}
+
+@media (max-width: 500px) {
+    .iconWrapper {
+        width: 70%;
+    }
+}

@@ -1,0 +1,10 @@
+.nav {
+    width: 300px;
+    border: 1px solid black;
+}
+
+@media (max-width: 767px) {
+    .nav{
+        width: 80%;
+    }
+}
