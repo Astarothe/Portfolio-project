@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "profile": "https://astarothe.github.io/Profile",
+  "homepage": "https://astarothe.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
